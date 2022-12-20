@@ -11,7 +11,7 @@ import Service from './Service/Service'
 function App() {
 
   return (
-    <div>
+    <div className='lg:px-8 px-3'>
       <Header></Header>
       <About></About>
       <Service></Service>

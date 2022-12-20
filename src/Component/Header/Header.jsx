@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import headerImage from './../Image/Picture2.png';
+import headerImage from './../Image/PicturefINAL.png';
 import navbarAvatar from './../Image/IMG_20220416_205320 (2).jpg';
 import Typewriter from 'typewriter-effect';
 
@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 
 const Header = () => {
     return (
-        <div id='home' className='h-screen'>
+        <div id='home' className='lg:h-screen'>
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown dropdown-end">
@@ -43,11 +43,11 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex justify-between place-items-center lg:mt-10'>
-                <div className='lg:ml-20 w-3/5'>
-                    <h3 className='text-xl text-white font-medium  mb-2'>UI & UX Designer</h3>
+                <div className='lg:ml-20 w-1/2'>
+                    <h3 className='lg:text-xl text-sm text-white font-medium  mb-2'>UI & UX Designer</h3>
 
                     <div>
-                        <h1 className='text-6xl font-bold text-white'>Hi! I'm <span className='text-rose-500'>
+                        <h1 className='lg:text-6xl text-xl font-bold text-white'>Hi! I'm <span className='text-rose-500'>
                             <Typewriter
                                 options={{
                                     strings: ["Amran", "a React Developer"],
@@ -59,8 +59,8 @@ const Header = () => {
                     </div>
                     {/* <h3 className='text-2xl text-white font-medium mt-2'>Full-Stack React Developer</h3> */}
                 </div>
-                <div className='w-2/5'>
-                    <img className='' src={headerImage} alt="" />
+                <div className='w-1/2'>
+                    <img className='lg:h-[550px]' src={headerImage} alt="" />
                 </div>
             </div>
         </div>

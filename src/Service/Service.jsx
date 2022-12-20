@@ -6,13 +6,13 @@ import { FaCode } from "react-icons/fa";
 const Service = () => {
     return (
         <div id='service' className='lg:h-screen text-white'>
-            <h1 className='text-4xl text-center lg:pt-10 lg:mt-10 mb-16 font-bold'>Services</h1>
+            <h1 className='lg:text-4xl text-2xl text-center lg:pt-10 lg:mt-10 lg:mb-16 font-bold'>Services</h1>
 
-            <div className='flex justify-around'>
-                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center">
-                    <MdOutlineDesignServices className='w-20 text-rose-600 h-16 mt-10'></MdOutlineDesignServices>
+            <div className='flex lg:flex-row flex-col justify-around'>
+                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
+                    <MdOutlineDesignServices className='lg:w-20 w-16 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></MdOutlineDesignServices>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title font-medium text-2xl p-0 mb-1">UI Design</h2>
+                        <h2 className="card-title font-medium text-lg lg:text-2xl mb-1">UI Design</h2>
                         <p className='text-gray-300'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
                             {/* The button to open modal */}
@@ -33,11 +33,11 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center">
+                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
                     
-                    <FaCode className='w-16 text-rose-600 h-16 mt-10'></FaCode>
+                    <FaCode className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></FaCode>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title font-medium text-2xl p-0 mb-1">Web Development</h2>
+                        <h2 className="card-title font-medium lg:text-2xl text-lg mb-1">Web Development</h2>
                         <p className='text-gray-300'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
                             {/* The button to open modal */}
@@ -58,10 +58,10 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center">
-                    <SiSpeedtest className='w-16 text-rose-600 h-16 mt-10'></SiSpeedtest>
+                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
+                    <SiSpeedtest className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></SiSpeedtest>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title font-medium text-2xl p-0 mb-1">Performance Test</h2>
+                        <h2 className="card-title font-medium lg:text-2xl text-lg p-0 mb-1">Performance Test</h2>
                         <p className='text-gray-300'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
                             {/* The button to open modal */}

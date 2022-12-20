@@ -5,7 +5,7 @@ const Project = () => {
         <div id='project' className='lg:h-screen text-white'>
             <h1 className='text-4xl font-bold text-center pt-6 mb-12'>Projects</h1>
 
-            <div className='grid grid-cols-3 lg:gap-6'>
+            <div className='grid lg:grid-cols-3 grid-col-1 lg:gap-6 gap-4'>
 
                 <div className="card w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
                     <div className="card-body items-center text-center">

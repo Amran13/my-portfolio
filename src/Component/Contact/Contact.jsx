@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div id='contact' className='lg:h-screen text-white'>
 
-            <div className='flex justify-between place-items-center'>
+            <div className='flex lg:flex-row flex-col justify-between place-items-center'>
                 <div className='mb-24'>
                     <h1 className='text-5xl font-bold text-center'>Contact <span className='text-rose-500'>Me</span></h1>
                     <h2 className='text-2xl font-medium text-center my-6'>Mohammad Amran Hossain</h2>
@@ -21,10 +21,10 @@ const Contact = () => {
 
                 <div>
 
-                    <div className="hero ">
+                    <div className="hero">
                         <div className="hero-content flex-col">
 
-                            <div className="card  w-[540px]  shadow-2xl bg-zinc-800">
+                            <div className="card lg:w-[540px]  shadow-2xl bg-zinc-800">
                                 <form action="">
                                     <div className="card-body">
                                         <div className="form-control">
