@@ -8,8 +8,8 @@ const Service = () => {
         <div id='service' className='lg:h-screen text-white'>
             <h1 className='lg:text-4xl text-2xl text-center lg:pt-10 lg:mt-10 lg:mb-16 font-bold'>Services</h1>
 
-            <div className='flex lg:flex-row flex-col justify-around'>
-                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
+            <div className='flex lg:flex-row flex-col lg:justify-around place-items-center'>
+                <div className="card lg:w-96  bg-zinc-800 shadow-xl place-items-center mb-4">
                     <MdOutlineDesignServices className='lg:w-20 w-16 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></MdOutlineDesignServices>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium text-lg lg:text-2xl mb-1">UI Design</h2>
@@ -33,7 +33,7 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
+                <div className="card lg:w-96 w-[344px] bg-zinc-800 shadow-xl place-items-center mb-4">
                     
                     <FaCode className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></FaCode>
                     <div className="card-body items-center text-center">
@@ -58,7 +58,7 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
+                <div className="card lg:w-96 w-[344px] bg-zinc-800 shadow-xl place-items-center mb-4">
                     <SiSpeedtest className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></SiSpeedtest>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium lg:text-2xl text-lg p-0 mb-1">Performance Test</h2>
