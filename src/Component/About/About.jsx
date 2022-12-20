@@ -3,7 +3,7 @@ import navbarAvatar from './../Image/IMG_20220416_205320 (2).jpg';
 
 const About = () => {
     return (
-        <div className='flex justify-center place-items-center lg:h-[30rem] bg-zinc-800 rounded-2xl'>
+        <div id='about' className='flex justify-center place-items-center lg:h-[30rem] bg-zinc-800 rounded-2xl'>
             <div className='lg:ml-20'>
             <img className='w-2/3 rounded-2xl'  src={navbarAvatar} alt="" />
             </div>

@@ -3,12 +3,12 @@ import { HiPaperAirplane } from "react-icons/hi2";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const Contact = () => {
     return (
-        <div className='lg:h-screen text-white'>
+        <div id='contact' className='lg:h-screen text-white'>
 
             <div className='flex justify-between place-items-center'>
                 <div className='mb-24'>
-                    <h1 className='text-4xl font-bold text-center'>Contact <span className='text-rose-500'>Me</span></h1>
-                    <h2 className='text-3xl font-bold text-center my-4'>Mohammad Amran Hossain</h2>
+                    <h1 className='text-5xl font-bold text-center'>Contact <span className='text-rose-500'>Me</span></h1>
+                    <h2 className='text-2xl font-medium text-center my-6'>Mohammad Amran Hossain</h2>
                     <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique qui ab cum accusamus ea necessitatibus rem nihil ipsam. Temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ea, labore assumenda id, iste ducimus dignissimos vitae earum dolor cum voluptatibus ullam possimus mollitia aliquam perspiciatis praesentium, at molestias debitis.</p>
                     <div className='flex justify-center mt-2'>
                         <a className='inline mr-2' href='https://www.github.com/amran13' target="_blank"><AiFillGithub className='text-rose-500 text-4xl cursor-pointer'></AiFillGithub></a>

@@ -1,10 +1,14 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import headerImage from './../Image/8d30a0ab-0469-4e9f-abf0-b29b3f06c22a-removebg.png';
 import navbarAvatar from './../Image/IMG_20220416_205320 (2).jpg';
+import Typewriter from 'typewriter-effect';
+
+
 
 const Header = () => {
     return (
-        <div className='h-screen'>
+        <div id='home' className='h-screen'>
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown dropdown-end">
@@ -19,12 +23,12 @@ const Header = () => {
 
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <a className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Home</a>
-                        <a className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>About Me</a>
-                        <a className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Services</a>
-                        <a className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Projects</a>
-                        <a className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Blogs</a>
-                        <a className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Contact</a>
+                        <Link to='home' spy={true} smooth={true} className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Home</Link>
+                        <Link to='about' spy={true} smooth={true} className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>About Me</Link>
+                        <Link to="service" spy={true} smooth={true} className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Services</Link>
+                        <Link to='project' spy={true} smooth={true} className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Projects</Link>
+                        <Link to='blog' spy={true} smooth={true} className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Blogs</Link>
+                        <Link to='contact' spy={true} smooth={true} className='text-white font-medium hover:text-rose-500 lg:mx-6 cursor-pointer'>Contact</Link>
 
 
                         {/* <li><a className='text-white font-medium hover:text-rose-500 mx-2'>About Me</a></li>
@@ -39,10 +43,21 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex justify-between place-items-center lg:mt-10'>
-                <div className='lg:ml-14'>
+                <div className='lg:ml-20'>
                     <h3 className='text-xl text-white font-medium  mb-2'>UI & UX Designer</h3>
-                    <h1 className='text-6xl font-bold text-white'>Hello, I'm <span className='text-rose-600'>Amran</span></h1>
-                    <h3 className='text-2xl text-white font-medium mt-2'>Full-Stack React Developer</h3>
+
+                    <div>
+                        <h1 className='text-6xl font-bold text-white'>Hi! I'm <span className='text-rose-500'>
+                            <Typewriter
+                                options={{
+                                    strings: ["Amran", "a React Developer"],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </span></h1>
+                    </div>
+                    {/* <h3 className='text-2xl text-white font-medium mt-2'>Full-Stack React Developer</h3> */}
                 </div>
                 <div>
                     <img className='w-2/3' src={headerImage} alt="" />

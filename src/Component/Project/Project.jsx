@@ -2,8 +2,8 @@ import React from 'react';
 
 const Project = () => {
     return (
-        <div className='lg:h-screen text-white'>
-            <h1 className='text-4xl font-bold text-center mb-12'>Projects</h1>
+        <div id='project' className='lg:h-screen text-white'>
+            <h1 className='text-4xl font-bold text-center pt-6 mb-12'>Projects</h1>
 
             <div className='grid grid-cols-3 lg:gap-6'>
 

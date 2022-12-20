@@ -5,8 +5,8 @@ import { FaCode } from "react-icons/fa";
 
 const Service = () => {
     return (
-        <div className='lg:h-screen text-white'>
-            <h1 className='text-4xl text-center lg:mt-20 mb-16 font-bold'>Services</h1>
+        <div id='service' className='lg:h-screen text-white'>
+            <h1 className='text-4xl text-center lg:pt-10 lg:mt-10 mb-16 font-bold'>Services</h1>
 
             <div className='flex justify-around'>
                 <div className="card w-96 bg-zinc-800 shadow-xl place-items-center">
