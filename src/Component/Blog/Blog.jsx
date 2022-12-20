@@ -3,9 +3,9 @@ import React from 'react';
 const Blog = () => {
     return (
         <div id='blog' className='lg:h-screen text-white'>
-            <h2 className='text-4xl font-bold text-center pt-10 mb-10'>Blogs</h2>
+            <h2 className='text-4xl font-bold text-center lg:pt-10 lg:mb-10 mb-6 pt-8'>Blogs</h2>
             <div className='grid lg:grid-cols-3 grid-col-1 gap-4'>
-                <div className="card w-96 bg-zinc-800 shadow-xl">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl">
                     <figure className="px-4 pt-4">
                         <img src="https://placeimg.com/400/225/arch" alt="Shoes" className="rounded-xl" />
                     </figure>
@@ -17,7 +17,7 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-zinc-800 shadow-xl">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl">
                     <figure className="px-4 pt-4">
                         <img src="https://placeimg.com/400/225/arch" alt="Shoes" className="rounded-xl" />
                     </figure>
@@ -29,7 +29,7 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-zinc-800 shadow-xl">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl">
                     <figure className="px-4 pt-4">
                         <img src="https://placeimg.com/400/225/arch" alt="Shoes" className="rounded-xl" />
                     </figure>

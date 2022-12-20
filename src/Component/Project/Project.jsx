@@ -3,11 +3,11 @@ import React from 'react';
 const Project = () => {
     return (
         <div id='project' className='lg:h-screen text-white'>
-            <h1 className='text-4xl font-bold text-center pt-6 mb-12'>Projects</h1>
+            <h1 className='lg:text-4xl text-2xl font-bold text-center pt-6 mb-6 lg:mb-12'>Projects</h1>
 
             <div className='grid lg:grid-cols-3 grid-col-1 lg:gap-6 gap-4'>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium text-2xl p-0 mb-1">Project-1</h2>
 
@@ -30,7 +30,7 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium text-2xl p-0 mb-1">Project-1</h2>
 
@@ -53,7 +53,7 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium text-2xl p-0 mb-1">Project-1</h2>
 
@@ -76,7 +76,7 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium text-2xl p-0 mb-1">Project-1</h2>
 
@@ -99,7 +99,7 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium text-2xl p-0 mb-1">Project-1</h2>
 
@@ -122,7 +122,7 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div className="card w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl h-64 place-items-center">
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-medium text-2xl p-0 mb-1">Project-1</h2>
 
