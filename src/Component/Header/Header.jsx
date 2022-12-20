@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import headerImage from './../Image/8d30a0ab-0469-4e9f-abf0-b29b3f06c22a-removebg.png';
+import headerImage from './../Image/Picture2.png';
 import navbarAvatar from './../Image/IMG_20220416_205320 (2).jpg';
 import Typewriter from 'typewriter-effect';
 
@@ -43,7 +43,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex justify-between place-items-center lg:mt-10'>
-                <div className='lg:ml-20'>
+                <div className='lg:ml-20 w-3/5'>
                     <h3 className='text-xl text-white font-medium  mb-2'>UI & UX Designer</h3>
 
                     <div>
@@ -59,8 +59,8 @@ const Header = () => {
                     </div>
                     {/* <h3 className='text-2xl text-white font-medium mt-2'>Full-Stack React Developer</h3> */}
                 </div>
-                <div>
-                    <img className='w-2/3' src={headerImage} alt="" />
+                <div className='w-2/5'>
+                    <img className='' src={headerImage} alt="" />
                 </div>
             </div>
         </div>
