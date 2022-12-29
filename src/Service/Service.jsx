@@ -13,7 +13,7 @@ const Service = () => {
                     <MdOutlineDesignServices className='lg:w-20 w-16 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></MdOutlineDesignServices>
                     <div className="card-body lg:p-8 px-6 py-4 items-center text-center">
                         <h2 className="card-title font-medium text-lg lg:text-2xl mb-1">UI Design</h2>
-                        <p className='text-gray-300 lg:text-center text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
+                        <p className='text-gray-300 lg:text-center text-justify text-sm lg:text-base'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
                             {/* The button to open modal */}
                             <label htmlFor="my-modal-6" className="btn btn-sm bg-rose-600 rounded-full hover:outline hover:bg-zinc-900 hover:text-rose-500 normal-case mt-1">Read More</label>
@@ -38,7 +38,7 @@ const Service = () => {
                     <FaCode className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></FaCode>
                     <div className="card-body lg:p-8 px-6 py-4 items-center text-center">
                         <h2 className="card-title font-medium lg:text-2xl text-lg mb-1">Web Development</h2>
-                        <p className='text-gray-300 lg:text-center text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
+                        <p className='text-gray-300 lg:text-center text-justify text-sm lg:text-base'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
                             {/* The button to open modal */}
                             <label htmlFor="my-modal-6" className="btn btn-sm bg-rose-600 rounded-full hover:outline hover:bg-zinc-900 hover:text-rose-500 normal-case mt-1">Read More</label>
@@ -62,7 +62,7 @@ const Service = () => {
                     <SiSpeedtest className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></SiSpeedtest>
                     <div className="card-body lg:p-8 px-6 py-4 items-center text-center">
                         <h2 className="card-title font-medium lg:text-2xl text-lg p-0 mb-1">Performance Test</h2>
-                        <p className='text-gray-300 lg:text-center text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
+                        <p className='text-gray-300 lg:text-center text-justify text-sm lg:text-base'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
                             {/* The button to open modal */}
                             <label htmlFor="my-modal-6" className="btn btn-sm bg-rose-600 rounded-full hover:outline hover:bg-zinc-900 hover:text-rose-500 normal-case mt-1">Read More</label>
