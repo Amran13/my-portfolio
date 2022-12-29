@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div id='blog' className='lg:h-screen text-white'>
+        <div id='blog' className='lg:h-screen text-white lg:block hidden'>
             <h2 className='text-4xl font-bold text-center lg:pt-10 lg:mb-10 mb-6 pt-8'>Blogs</h2>
             <div className='grid lg:grid-cols-3 grid-col-1 gap-4'>
                 <div className="card lg:w-96 bg-zinc-800 shadow-xl">

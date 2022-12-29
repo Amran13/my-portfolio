@@ -9,9 +9,9 @@ const Service = () => {
             <h1 className='lg:text-4xl text-2xl text-center lg:pt-10 lg:mt-10 lg:mb-16 mt-10 mb-4 font-bold'>Services</h1>
 
             <div className='flex lg:flex-row flex-col lg:justify-around place-items-center'>
-                <div className="card lg:w-96  bg-zinc-800 shadow-xl place-items-center mb-4">
+                <div className="card lg:w-96  bg-zinc-800 shadow-xl place-items-center mb-6">
                     <MdOutlineDesignServices className='lg:w-20 w-16 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></MdOutlineDesignServices>
-                    <div className="card-body items-center text-center">
+                    <div className="card-body lg:p-8 px-6 py-4 items-center text-center">
                         <h2 className="card-title font-medium text-lg lg:text-2xl mb-1">UI Design</h2>
                         <p className='text-gray-300 lg:text-center text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
@@ -33,10 +33,10 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className="card lg:w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
+                <div className="card lg:w-96 bg-zinc-800 shadow-xl place-items-center mb-6">
                     
                     <FaCode className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></FaCode>
-                    <div className="card-body items-center text-center">
+                    <div className="card-body lg:p-8 px-6 py-4 items-center text-center">
                         <h2 className="card-title font-medium lg:text-2xl text-lg mb-1">Web Development</h2>
                         <p className='text-gray-300 lg:text-center text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">
@@ -60,7 +60,7 @@ const Service = () => {
 
                 <div className="card lg:w-96 bg-zinc-800 shadow-xl place-items-center mb-4">
                     <SiSpeedtest className='lg:w-16 w-14 h-14 text-rose-600 lg:h-16 lg:mt-10 mt-6'></SiSpeedtest>
-                    <div className="card-body items-center text-center">
+                    <div className="card-body lg:p-8 px-6 py-4 items-center text-center">
                         <h2 className="card-title font-medium lg:text-2xl text-lg p-0 mb-1">Performance Test</h2>
                         <p className='text-gray-300 lg:text-center text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique iure quo atque dolor cupiditate provident minima tenetur assumenda ratione dolorem, beatae facere perspiciatis optio earum mollitia dicta distinctio iusto adipisci.</p>
                         <div className="card-actions">

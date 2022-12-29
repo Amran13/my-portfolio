@@ -9,7 +9,7 @@ import Typewriter from 'typewriter-effect';
 const Header = () => {
     return (
         <div id='home' className='lg:h-screen'>
-            <div className="navbar">
+            <div className="navbar lg:p-2 p-0">
                 <div className="navbar-start">
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -18,7 +18,7 @@ const Header = () => {
                             </div>
                         </label>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl text-white uppercase">Portfo<span className='text-rose-500'>lio</span></a>
+                    <a className="btn btn-ghost normal-case text-xl text-white uppercase lg:p-1 p-0">Portfo<span className='text-rose-500'>lio</span></a>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
@@ -37,12 +37,12 @@ const Header = () => {
                         <li><a className='text-white font-medium hover:text-rose-500 mx-2'>Contact</a></li> */}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end ">
 
                     <a className="btn btn-sm rounded-full text-white bg-rose-600 hover:bg-zinc-900 hover:text-rose-500 hover:outline">Download CV</a>
                 </div>
             </div>
-            <div className='flex justify-between place-items-center lg:mt-10'>
+            <div className='flex justify-between place-items-center mt-10 '>
                 <div className='lg:ml-20 w-1/2'>
                     <h3 className='lg:text-xl text-sm text-white font-medium  mb-2'>UI & UX Designer</h3>
 
