@@ -40,12 +40,12 @@ const Header = () => {
                 </div>
                 <div className="navbar-end ">
 
-                    <a className="btn btn-sm rounded-full text-white bg-rose-600 normal-case hover:bg-zinc-900 hover:text-rose-500 hover:outline">Resume <FiDownload /> </a>
+                    <a className="btn lg:btn-md btn-sm rounded-full text-white bg-rose-600 normal-case hover:bg-zinc-900 hover:text-rose-500 hover:outline">Resume <FiDownload className='ml-1'> </FiDownload> </a>
                 </div>
             </div>
             <div className='flex justify-between place-items-center mt-10 '>
                 <div className='lg:ml-20 w-1/2'>
-                    <h3 className='lg:text-xl text-sm text-white font-medium  mb-2'>UI & UX Designer</h3>
+                    <h3 className='lg:text-xl text-sm text-white font-medium  mb-2'>UI & UX Developer</h3>
 
                     <div>
                         <h1 className='lg:text-6xl text-xl font-bold text-white'>Hi! I'm <span className='text-rose-500'>
